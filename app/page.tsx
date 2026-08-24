@@ -396,7 +396,7 @@ export default function LandingPage() {
         transition={{
           duration: 0.7,
         }}
-        className="relative max-w-6xl mx-auto px-5 py-28 border-t border-white/[0.07]"
+        className="relative max-w-6xl mx-auto px-5 py-24 border-t border-white/[0.07]"
       >
 
         {/* Section heading */}
@@ -531,7 +531,7 @@ export default function LandingPage() {
         transition={{
           duration: 0.7,
         }}
-        className="relative max-w-6xl mx-auto px-5 py-32 border-t border-white/[0.07]"
+        className="relative max-w-6xl mx-auto px-5 py-28 border-t border-white/[0.07]"
       >
 
         <div className="max-w-3xl mx-auto text-center">
