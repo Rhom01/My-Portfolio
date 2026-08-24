@@ -43,51 +43,51 @@ export default function LandingPage() {
           BACKGROUND
       ====================================================== */}
 
-      <div className="fixed inset-0 pointer-events-none overflow-hidden -z-10">
+      {/* BACKGROUND */}
+<div className="fixed inset-0 pointer-events-none overflow-hidden -z-10">
 
-        {/* Subtle X-style blue glow */}
-        <div className="absolute inset-0 bg-[radial-gradient(circle_at_20%_20%,rgba(29,155,240,0.10),transparent_30%),radial-gradient(circle_at_80%_60%,rgba(29,155,240,0.06),transparent_30%)]" />
+  {/* Static background glow */}
+  <div className="absolute inset-0 bg-[radial-gradient(circle_at_20%_20%,rgba(29,155,240,0.08),transparent_35%),radial-gradient(circle_at_80%_60%,rgba(29,155,240,0.04),transparent_35%)]" />
 
-        {/* Background grid */}
-        <div
-          className="absolute inset-0 opacity-[0.035]"
-          style={{
-            backgroundImage:
-              "linear-gradient(#ffffff 1px, transparent 1px), linear-gradient(90deg, #ffffff 1px, transparent 1px)",
-            backgroundSize: "60px 60px",
-          }}
-        />
+  {/* Background grid - desktop only */}
+  <div
+    className="hidden md:block absolute inset-0 opacity-[0.035]"
+    style={{
+      backgroundImage:
+        "linear-gradient(#ffffff 1px, transparent 1px), linear-gradient(90deg, #ffffff 1px, transparent 1px)",
+      backgroundSize: "60px 60px",
+    }}
+  />
 
-        {/* Animated blue glow 1 */}
-        <motion.div
-          animate={{
-            x: [0, 40, 0],
-            y: [0, -30, 0],
-            scale: [1, 1.1, 1],
-          }}
-          transition={{
-            duration: 14,
-            repeat: Infinity,
-            ease: "easeInOut",
-          }}
-          className="absolute top-[20%] left-[10%] w-72 h-72 rounded-full bg-[#1d9bf0]/10 blur-[120px]"
-        />
+  {/* Desktop animated glow */}
+  <motion.div
+    animate={{
+      x: [0, 40, 0],
+      y: [0, -30, 0],
+      scale: [1, 1.1, 1],
+    }}
+    transition={{
+      duration: 14,
+      repeat: Infinity,
+      ease: "easeInOut",
+    }}
+    className="hidden md:block absolute top-[20%] left-[10%] w-72 h-72 rounded-full bg-[#1d9bf0]/10 blur-[100px]"
+  />
 
-        {/* Animated blue glow 2 */}
-        <motion.div
-          animate={{
-            x: [0, -40, 0],
-            y: [0, 30, 0],
-            scale: [1, 1.15, 1],
-          }}
-          transition={{
-            duration: 16,
-            repeat: Infinity,
-            ease: "easeInOut",
-          }}
-          className="absolute bottom-[15%] right-[10%] w-80 h-80 rounded-full bg-[#1d9bf0]/10 blur-[130px]"
-        />
-      </div>
+  <motion.div
+    animate={{
+      x: [0, -40, 0],
+      y: [0, 30, 0],
+      scale: [1, 1.15, 1],
+    }}
+    transition={{
+      duration: 16,
+      repeat: Infinity,
+      ease: "easeInOut",
+    }}
+    className="hidden md:block absolute bottom-[15%] right-[10%] w-80 h-80 rounded-full bg-[#1d9bf0]/10 blur-[110px]"
+  />
+</div>
 
       {/* =====================================================
           HERO SECTION
