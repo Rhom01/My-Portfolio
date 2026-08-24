@@ -324,7 +324,7 @@ export default function LandingPage() {
                 <div className="w-full h-full rounded-full bg-[#080808] p-2">
 
                   <img
-                    src="/Samson.jpg"
+                    src="/samson.jpg"
                     alt="samson Abidemi Abolarin"
                     className="w-full h-full object-cover rounded-full grayscale hover:grayscale-0 transition duration-700"
                   />
