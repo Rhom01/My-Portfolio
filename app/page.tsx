@@ -139,7 +139,7 @@ export default function LandingPage() {
 
             {/* Name */}
 
-            <h1 className="text-5xl sm:text-6xl lg:text-7xl font-bold tracking-[-0.05em] leading-[1.02]">
+            <h1 className="text-4xl sm:text-6xl lg:text-7xl font-bold tracking-[-0.05em] leading-[1.02]">
 
               Samson Abidemi
 
