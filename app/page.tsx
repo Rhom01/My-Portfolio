@@ -163,37 +163,29 @@ export default function LandingPage() {
                 }} 
                 className="mt-7 text-xl md:text-2xl text-gray-300 font-medium" 
               > 
-                <span>Data Analytical Engineer</span> 
+                <span>Data Engineer</span> 
               
                 <span className="text-[rgb(155,193,219)] mx-3 font-bold">
                   ||
                 </span> 
               
-                <span>Web Developer</span>
+                <span>Software Engineer</span>
 
                 <span className="text-[rgb(155,193,219)] mx-3 font-bold">
-                  ||
                 </span>
 
-                <span>Tech Entrepreneur</span>
+                
               </motion.p>
                             
 
             {/* Description */}
 
+          {/* Description */}
             <p className="mt-6 max-w-2xl text-gray-400 text-base md:text-lg leading-8">
-              Software Engineer with 5+ years of experience
-              specializing in Data and Full-Stack Web Development.
-              Skilled in building scalable data pipelines,
-              developing modern web applications, designing
-              data-driven solutions, and transforming complex data
-              into actionable insights.
-            </p>
-
-            <p className="mt-4 max-w-2xl text-gray-500 leading-7">
-              I build reliable, scalable and maintainable solutions
-              that combine technology, data and business intelligence
-              to solve real-world problems.
+              Software Engineer with 5+ years of experience building scalable,
+              data-driven solutions across data engineering and web development.
+              I combine technology, data, and business intelligence to transform
+              complex problems into reliable solutions that create real-world impact.
             </p>
 
             {/* BUTTONS */}
