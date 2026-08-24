@@ -325,14 +325,14 @@ export default function LandingPage() {
 
                   <img
                     src="/samson.jpg"
-                    alt="Samson Abidemi Abolarin"
+                    alt="samson Abidemi Abolarin"
                     className="w-full h-full object-cover rounded-full grayscale hover:grayscale-0 transition duration-700"
                   />
 
                 </div>
 
               </motion.div>
-              
+
 
               {/* Floating label */}
 
