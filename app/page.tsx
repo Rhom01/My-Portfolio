@@ -149,29 +149,34 @@ export default function LandingPage() {
 
             </h1>
 
-            {/* Professional title */}
+              {/* Professional title */} 
+              <motion.p 
+                initial={{ 
+                  opacity: 0, 
+                }} 
+                animate={{ 
+                  opacity: 1, 
+                }} 
+                transition={{ 
+                  delay: 0.45, 
+                  duration: 0.6, 
+                }} 
+                className="mt-7 text-xl md:text-2xl text-gray-300 font-medium" 
+              > 
+                <span>Data Analytical Engineer</span> 
+              
+                <span className="text-[rgb(155,193,219)] mx-3 font-bold">
+                  ||
+                </span> 
+              
+                <span>Web Developer</span>
 
-            <motion.p
-              initial={{
-                opacity: 0,
-              }}
-              animate={{
-                opacity: 1,
-              }}
-              transition={{
-                delay: 0.45,
-                duration: 0.6,
-              }}
-              className="mt-7 text-xl md:text-2xl text-gray-300 font-medium"
-            >
-              <span>Data Analytical Engineer</span>
+                <span className="text-[rgb(155,193,219)] mx-3 font-bold">
+                  ||
+                </span>
 
-              <span className="text-[rgb(155,193,219)] mx-3 font-bold">
-                ||
-              </span>
-
-              <span>Web Developer</span>
-            </motion.p>
+                <span>Tech Entrepreneur</span>
+              </motion.p>
                             
 
             {/* Description */}
