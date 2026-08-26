@@ -39,9 +39,6 @@ export default function LandingPage() {
   return (
     <main className="min-h-screen bg-[#050505] text-white overflow-x-hidden selection:bg-[#1d9bf0] selection:text-white">
 
-      {/* =====================================================
-          BACKGROUND
-      ====================================================== */}
 
       {/* BACKGROUND */}
 <div className="fixed inset-0 pointer-events-none overflow-hidden -z-10">
@@ -89,9 +86,9 @@ export default function LandingPage() {
   />
 </div>
 
-      {/* =====================================================
+      {/* 
           HERO SECTION
-      ====================================================== */}
+       */}
 
       <section
         id="home"
@@ -163,13 +160,13 @@ export default function LandingPage() {
                 }} 
                 className="mt-7 text-xl md:text-2xl text-gray-300 font-medium" 
               > 
-                <span>Data Engineer</span> 
+                <span>DATA ENGINEER</span> 
               
                 <span className="text-[rgb(155,193,219)] mx-3 font-bold">
                   ||
                 </span> 
               
-                <span>Software Engineer</span>
+                <span>SOFTWARE ENGINEER</span>
 
                 <span className="text-[rgb(155,193,219)] mx-3 font-bold">
                 </span>
@@ -178,14 +175,9 @@ export default function LandingPage() {
               </motion.p>
                             
 
-            {/* Description */}
-
           {/* Description */}
-            <p className="mt-6 max-w-2xl text-gray-400 text-base md:text-lg leading-8">
-              Software Engineer with 5+ years of experience building scalable,
-              data-driven solutions across data engineering and web development.
-              I combine technology, data, and business intelligence to transform
-              complex problems into reliable solutions that create real-world impact.
+            <p className="mt-6 w-full max-w-4xl text-gray-400 text-base md:text-lg leading-8 text-justify">
+              Data & Analytics Engineer with expertise in SQL, Python, Power BI, data modeling, ETL pipelines, machine learning, and analytics, complemented by software and web application development. I build scalable, data-driven solutions that transform complex data into actionable insights and user-friendly applications that create measurable business value.
             </p>
 
             {/* BUTTONS */}
@@ -263,9 +255,9 @@ export default function LandingPage() {
             </div>
           </motion.div>
 
-          {/* =================================================
+          {/*
               PROFILE IMAGE
-          ================================================== */}
+          */}
 
           <motion.div
             initial={{
@@ -375,9 +367,7 @@ export default function LandingPage() {
         </div>
       </section>
 
-      {/* =====================================================
-          PROJECTS
-      ====================================================== */}
+      {/*PROJECTS*/}
 
       <motion.section
         id="projects"
@@ -510,9 +500,7 @@ export default function LandingPage() {
         </div>
       </motion.section>
 
-      {/* =====================================================
-          CONTACT
-      ====================================================== */}
+      {/*CONTACT*/}
 
       <motion.section
         id="contact"
@@ -593,9 +581,7 @@ export default function LandingPage() {
         </div>
       </motion.section>
 
-      {/* =====================================================
-          FOOTER
-      ====================================================== */}
+      {/* FOOTER*/}
 
       <footer className="relative border-t border-white/[0.07]">
 
