@@ -160,13 +160,13 @@ export default function LandingPage() {
                 }} 
                 className="mt-7 text-xl md:text-2xl text-gray-300 font-medium" 
               > 
-                <span>DATA ENGINEER</span> 
+                <span>Data Engineer</span> 
               
                 <span className="text-[rgb(155,193,219)] mx-3 font-bold">
                   ||
                 </span> 
               
-                <span>SOFTWARE ENGINEER</span>
+                <span>Software Engineer</span>
 
                 <span className="text-[rgb(155,193,219)] mx-3 font-bold">
                 </span>
