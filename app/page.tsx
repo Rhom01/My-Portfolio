@@ -10,10 +10,10 @@ import {
 
 const projects = [
   {
-    title: "Fintech Dashboard",
+    title: "Data Transformation & Mapping",
     description:
-      "A data-driven dashboard designed for monitoring business and financial performance.",
-    image: "/projects/dashboard.png",
+      "This is the preparation, Transformation & Mapping of datasets for upload into the application database",
+    image: "/Image2.jpg",
     link: "https://example.com/dashboard",
     tag: "Data Analytics",
   },
